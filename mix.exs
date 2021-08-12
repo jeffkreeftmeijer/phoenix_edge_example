@@ -33,7 +33,7 @@ defmodule PhoenixEdgeExample.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, path: "../..", override: true},
+      {:phoenix, github: "phoenixframework/phoenix", override: true},
       {:phoenix_ecto, "~> 4.1"},
       {:ecto_sql, "~> 3.5"},
       {:postgrex, ">= 0.0.0"},
